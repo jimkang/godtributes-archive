@@ -1,12 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 html {
   height: 100%;
 }
 
 body {
-  font-family: Nunito, 'Helvetica Neue', sans-serif;
+  font-family: 'Helvetica Neue', sans-serif;
   font-size: 36px;
+  font-weight: 300;
   color: #252528;
   background-color: white;
   margin: 0;
@@ -49,7 +48,6 @@ a:visited {
   color: #252528;
 }
 
-
 .media {
   display: flex;
   flex-wrap: wrap;
@@ -72,13 +70,11 @@ li.pane {
 
 .entry-meta {
   color: hsl(341, 10%, 20%);
-  font-weight: bold;
+  font-size: 0.5em;
 }
 
-.media-caption {
-  flex-grow: 1;
-  font-size: larger;
-  margin-top: 1em;
+.text-caption {
+  font-size: 1.2em;
 }
 
 .time-stamp {
