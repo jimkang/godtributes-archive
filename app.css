@@ -1,9 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 html {
   height: 100%;
 }
 
 body {
-  font-family: Georgia, serif;
+  font-family: Nunito, 'Helvetica Neue', sans-serif;
   font-size: 36px;
   color: #252528;
   background-color: white;
@@ -12,6 +14,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;  
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: Futura;
 }
 
 section {
