@@ -23,6 +23,7 @@ body {
 h1 {
   text-transform: uppercase;
   font-family: Futura;
+  text-shadow: white 0 0 10px
 }
 
 section {
