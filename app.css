@@ -13,10 +13,7 @@ body {
   background-repeat: no-repeat, no-repeat, no-repeat;
   background-attachment: scroll, scroll, fixed;
   background-size: 314px 300px, 334px 300px;
-  margin-top: 0;
-  margin-left: 0;
-  margin-right: 0;
-  margin-bottom: 2em;
+  margin: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -97,6 +94,10 @@ li.pane {
   border-left: 1px solid hsla(30, 14%, 67%, 0.5);
   width: 100%;
 }
+
+footer {
+  margin-bottom: 2em;
+}  
 
 @media all and (max-width: 414px) {
   body {
