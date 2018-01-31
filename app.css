@@ -8,6 +8,11 @@ body {
   font-weight: 300;
   color: #252528;
   background-color: white;
+  background-image: url(images/side-orc-1.png), url(images/side-orc-2.png);
+  background-position: top left, top right, center;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-attachment: scroll, scroll, fixed;
+  background-size: 314px 300px, 334px 300px;
   margin: 0;
   height: 100%;
   display: flex;
@@ -64,8 +69,7 @@ li.pane {
   padding-bottom: 1.2em;
   margin-bottom: 2em;
   text-align: center;
-  border: 1px solid #ddd;
-  box-shadow: 2px 2px #e8e8e8;  
+  border: 1px solid #aaa;
 }
 
 .entry-meta {
@@ -74,7 +78,11 @@ li.pane {
 }
 
 .text-caption {
-  font-size: 1.2em;
+  font-size: 2em;
+  background-image: url(images/icon.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 270px;
 }
 
 .time-stamp {
