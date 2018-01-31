@@ -96,7 +96,7 @@ li.pane {
 }
 
 footer {
-  margin-bottom: 2em;
+  padding-bottom: 2em;
 }  
 
 @media all and (max-width: 414px) {
